@@ -1,0 +1,238 @@
+.container-2 {
+    font-family: 'Poppins', sans-serif;
+    height: 950px;
+    width: 600px;
+    padding: 20px;
+    background: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+     
+}
+
+/* Container 2 | Name Container _____________ */
+.container-2 :where(.name-container) {
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-2 :where(.name-container) :where(h1) {
+    color: #3d3d3d;
+    font-size: 40px;
+}
+
+.container-2 :where(.name-container) :where(h2) {
+    color: #737373;
+    font-weight: 500;
+}
+
+/* Container 2 | Name Container | Field Experience Summary _____________ */
+.container-2 :where(.field-experience-summary) {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.profile-summary) {
+    color: #272828;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.profile-summary) :where(h3) {
+    color: #272828;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.container-2 :where(.field-experience-summary) :where(.profile-summary) :where(p) {
+    color: #3d3d3d;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.experience) {
+    color: #272828;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.experience) :where(h3) {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.container-2 :where(.field-experience-summary) :where(.experience) {
+    list-style: none;
+}
+
+.container-2 :where(.field-experience-summary) :where(.experience) :where(.experiencing) {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.experience) :where(.experiencing) :where(.lis) {
+    display: flex;
+    flex-direction: column;
+    gap: 07px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.experience) :where(.experiencing) :where(li) :where(.experience_1) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-2 :where(.field-experience-summary) :where(.experience) :where(.experiencing) :where(li) :where(.experience_1) :where(h4) {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.experience) :where(.experiencing) :where(li) :where(.experience_1) :where(.date) {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.experience) :where(.experiencing) :where(li) :where(.company-name) {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.experience) :where(.experiencing) :where(li) :where(.paragraph) :where(ul) {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.experience) :where(.experiencing) :where(li) :where(.paragraph) :where(ul) :where(li) {
+    display: flex;
+    gap: 5px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.experience) :where(.experiencing) :where(li) :where(.paragraph) :where(ul) :where(li) :where(label) {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-2 :where(.field-experience-summary) :where(.experience) :where(.experiencing) :where(li) :where(.paragraph) :where(ul) :where(li) :where(span) {
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container 2 | Reference ____________________________ */
+.container-2 :where(.field-experience-summary) :where(.referencing) {
+    color: #272828;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+.container-2 :where(.field-experience-summary) :where(.referencing) :where(h3) {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+
+.container-2 :where(.field-experience-summary) :where(.referencing) :where(.references) {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.referencing) :where(.references) :where(li) {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.referencing) :where(.references) :where(.naming) {
+    font-weight: 100;
+}
+
+.container-2 :where(.field-experience-summary) :where(.referencing) :where(.references) :where(.roling) {
+    font-weight: 700;
+}
+
+.container-2 :where(.field-experience-summary) :where(.referencing) :where(.references) :where(.contacting) {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.referencing) :where(.references) :where(.contacting) :where(h5) :where(.phone-container) {
+    font-weight: 100;
+}
+
+/*
+.container-2 :where(.field-experience-summary) :where(.reference) {
+    color: #272828;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.reference) :where(h3) {
+    color: #272828;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.container-2 :where(.field-experience-summary) :where(.reference) :where(.references) {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-2 :where(.field-experience-summary) :where(.reference) :where(.references) :where(li) {
+    line-height: 15px;
+    font-size: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.reference) :where(.references) :where(li) :where(.roling, .company-container) {
+    font-weight: 400;
+}
+
+.container-2 :where(.field-experience-summary) :where(.reference) :where(.references) :where(li) :where(.contacting) :where(h5) {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.container-2 :where(.field-experience-summary) :where(.reference) :where(.references) :where(li) :where(.contacting) :where(h5) :where(.phone-container) {
+    font-weight: 400;
+}
+*/
